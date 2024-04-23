@@ -1,0 +1,7 @@
+{
+  "name": "reactFront",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
