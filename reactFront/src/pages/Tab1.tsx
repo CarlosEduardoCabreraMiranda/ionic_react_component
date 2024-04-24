@@ -17,14 +17,15 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">COOL</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Cool page" btnLabel='Cool' btnClick={botonCoolAction} inputLabel='Cool input' inputPlaceholder='Cool word'/>
+        <ExploreContainer name="Cool page" btnLabelA='ADD COOL' btnLabelM='MODIFY COOL' btnLabelE='DELETE COOL 😢' btnLabelC='CONSULTAR COOL' btnClick={botonCoolAction} inputLabelName='Cool Name input' inputNamePlaceholder='Write your complete name'
+          inputLabelBirthDate='Cool date picker' inputLabelPhone='Phone' inputPhonePlaceholder='Write down your phone' inputLabelEmail='Email' inputEmailPlaceholder='Put your email like this [your_email_address]@email.com'/>
       </IonContent>
     </IonPage>
   );
 };
 
 const botonCoolAction = () => {
-  const palabra = "cool"
+  const palabra = "cool clickeado"
   console.log('Botón '+palabra);
   alert("el botón es "+palabra);
 };

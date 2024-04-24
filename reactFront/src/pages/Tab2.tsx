@@ -16,14 +16,14 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Boooring</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Boring Page" btnLabel='Boring' btnClick={botonDoesntMatterAction} inputLabel='NO HAPPY 🥱' inputPlaceholder='does it matter bro?' />
+        <ExploreContainer name="Boring Page" btnLabelA='Normal Add' btnLabelC='Search Normal People' btnLabelE='Delete Normal People' btnLabelM='Modify normal People' btnClick={botonDoesntMatterAction} inputLabelName='NO HAPPY NAME 🥱' inputNamePlaceholder='does your name matter bro?' inputLabelBirthDate='how old are you?⌛' inputLabelPhone='Phone💼' inputPhonePlaceholder='Write down your phone already' inputLabelEmail='Email' inputEmailPlaceholder='Digit your email like ... super_complex_address@mail.com'/>
       </IonContent>
     </IonPage>
   );
 };
 
 const botonDoesntMatterAction = () => {
-  const palabra = "booring"
+  const palabra = "booring clickeado"
   console.log('Botón ' + palabra);
   alert("el botón es " + palabra);
 };
